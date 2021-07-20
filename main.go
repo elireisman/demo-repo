@@ -8,6 +8,5 @@ import (
 // utilize vulnerable import
 func main() {
 	bc := new(core.BlockChain)
-
-	fmt.Println("%+v", bc)
+	fmt.Printf("%+v\n", bc)
 }
