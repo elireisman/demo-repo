@@ -2,6 +2,8 @@
 
 set -euxo pipefail
 
+# intentionally cause trouble: https://github.com/advisories/GHSA-m6gx-rhvj-fh52
+
 go get -u github.com/ethereum/go-ethereum@v1.9.9
 go mod tidy
 go build ./...
