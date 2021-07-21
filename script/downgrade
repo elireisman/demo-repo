@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+go get -u github.com/ethereum/go-ethereum@v1.9.9
+go mod tidy
+go build ./...
+git add go.*
+git commit -m 'downgrade and hodl!!1!'
+git push origin master
