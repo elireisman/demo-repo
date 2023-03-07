@@ -14,7 +14,5 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/prometheus/tsdb v0.10.0 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210305035536-64b5b1c73954 // indirect
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
-	golang.org/x/net v0.0.0-20210716203947-853a461950ff // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/net v0.7.0 // indirect
 )
